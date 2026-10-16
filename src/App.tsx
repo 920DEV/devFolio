@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { ClosingBand } from "./components/ClosingBand";
 import { HeroSection } from "./components/HeroSection";
 import { ProjectsSection } from "./components/ProjectsSection";
-import { SkillsSection } from "./components/SkillsSection";
+// import { SkillsSection } from "./components/SkillsSection";
 import { StatsBand } from "./components/StatsBand";
 import { orbitNodes, profile, projects, skillGroups, stats } from "./data/portfolio";
 import type { OrbitNode } from "./types/portfolio";
@@ -25,7 +25,7 @@ function App() {
       />
       <StatsBand stats={stats} />
       <ProjectsSection projects={projects} />
-      <SkillsSection skillGroups={skillGroups} />
+      {/* <SkillsSection skillGroups={skillGroups} /> */}
       <ClosingBand profile={profile} />
     </main>
   );
